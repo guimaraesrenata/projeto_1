@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(255, 239, 242);
+    font-size: 40px;
+}
+
+header {
+    padding: 16px 0;
+    width: 100vw;
+    background-color: rgb(241, 89, 115);;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header nav li a {
+    color: rgb(255, 239, 242);
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section img {
+    height: 320px;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: 0.7px solid rgba(78, 74, 75, 0.349);
+}
+
+section img.images {
+    margin-left: 24px;
+}
+
+section img.imageleft {
+    margin-right: 24px;
+}
+
+section h2 {
+    color: rgb(241, 89, 115);
+    font-family: "Rowdies", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+
+.call {
+    margin: 0 auto;
+}
+
+#call {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    margin: 20px 0;
+    color: rgb(241, 89, 115);
+    font-weight: bold;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    background-color: rgb(241, 89, 115);
+    color: rgb(255, 239, 242);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "Rowdies", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 18px;
+    width: 340px;
+}
+
+form button:hover {
+    background-color: rgb(114, 89, 226);
+}
+
+footer {
+    background-color: rgb(241, 89, 115);
+    color: rgb(255, 239, 242);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12px;
+}
+
+footer a {
+    color: rgb(255, 239, 242);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
